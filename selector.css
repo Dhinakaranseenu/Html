@@ -1,0 +1,38 @@
+*{font-family: Arial, Helvetica, sans-serif;color: blue;}
+#id1,h2{
+    text-transform: capitalize;
+}
+div>h3{
+    text-shadow: 2px 2px 6px rgb(255, 0, 212);
+}
+div+h3{
+    font-size: 60px;
+}
+div~h3{
+    text-align: center;
+}
+h3:nth-child(3n){
+    background-color: aqua;
+}
+div{
+    border: 2px solid green;
+    background-color: darkgoldenrod;
+}
+div:hover{
+    background-color: brown;
+}
+input[type]{
+    color: rgb(76, 0, 255);
+}
+input[type="text"]{
+    color: red;
+}
+input[class^="a"]{
+    font-style: italic;
+}
+input[class$="o"]{
+    text-decoration: underline;
+}
+input[class*="a"]{
+    text-transform: capitalize;
+}
