@@ -1,2 +1,17 @@
-.dhina {color: aqua;}
-#i1{color: blueviolet;}
+p{
+    color:black ;
+    font-size: 50px;
+    font-size: italics;
+    font-family: dhina;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-shadow: 10px 10px 3px blue;
+    
+   
+}
+@font-face {
+    font-family: dhina;
+    src: url("DoubleFeature20.ttf");
+}

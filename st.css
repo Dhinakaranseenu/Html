@@ -1,0 +1,27 @@
+div{
+    box-shadow: 10px 10px 2px red ;
+    width: 700;
+    height: 500px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(209, 2, 37);
+    border-top-color: rgb(42, 165, 93);
+    border-radius: 15px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-right: 60px;
+    margin-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 50px;
+    text-transform: uppercase;
+}
+body{
+    background-color: green;
+    background-image: url("download.png");
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-attachment: scroll;
+background-position: right-top;
+}
