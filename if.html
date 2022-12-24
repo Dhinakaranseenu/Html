@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function pos(){
+           var a1 = document.getElementById("id1");
+           console.log(a1.value);
+           var num = /^[0-9]+$/;
+            if(a1.value>0){
+               document.write("positive"+a1.value);
+            }
+                else if(a1.value.trim().length==0){
+                    document.write("the field is empty");
+                }
+                else if(!(a1.value.match(num))){
+                    document.write("enter the only numbers");
+                }
+                else{
+                    document.write("Negative"+a1.value);
+                }
+            
+        }
+    </script>
+    <input required type="text" id="id1">
+    <input type="submit" onclick="pos()">
+</body>
+</html>
